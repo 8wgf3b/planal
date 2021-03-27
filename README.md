@@ -1,2 +1,2 @@
 # planal
-mini palnning analysis project
+mini planning analysis project
