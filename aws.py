@@ -12,7 +12,7 @@ def saveascsv(x):
         soup = BeautifulSoup(f, 'html.parser')
 
     cs = soup.find_all("span", {'class': 'lecture-name'})
-
+    print(cs)
     chaps = []
 
     for i in cs:
@@ -34,3 +34,4 @@ def saveascsv(x):
 
 
 saveascsv('sap')
+saveascsv('saa')

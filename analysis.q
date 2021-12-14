@@ -7,3 +7,4 @@ maker: {
     }
 
 maker each `saa`sap;
+prg: {100 * %[;0D01] sum sap[x; `time]}
